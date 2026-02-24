@@ -1,79 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!--
-  ============================================================
-  COFFEE SHOP LANDING PAGE
-  ============================================================
-  This page has 5 main parts:
-    1. HEAD     — page settings, fonts, and all the CSS styles
-    2. HEADER   — logo + navigation bar at the top
-    3. HERO     — big welcome banner with a background image
-    4. ABOUT    — "About Us" and "Our Specialties" side by side
-    5. MENU     — three-column menu (Coffee, Tea, Pastries)
-    6. FOOTER   — copyright bar at the bottom
-  ============================================================
--->
-
 <head>
-  <!-- Basic page settings -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Brewed Awakening — Coffee Shop</title>
+  <title> Brewed Awakening — Coffee Shop </title>
 
-  <!-- Google Fonts: nice serif font for headings -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
 
   <style>
-    /* ============================================================
-       GLOBAL STYLES — applied to every element on the page
-       ============================================================ */
-
-    /* Remove default spacing and make sizing consistent */
+    
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
 
-    /* Base font and background color for the whole page */
     body {
       font-family: Georgia, serif;
-      background-color: #fdfaf4; /* warm ivory */
-      color: #3d2314;            /* dark brown text */
+      background-color: #fdfaf4; 
+      color: #3d2314;            
     }
 
-    /* Smooth scrolling when clicking nav links */
     html {
       scroll-behavior: smooth;
     }
 
-
-    /* ============================================================
-       HEADER — fixed bar at the top with logo + nav links
-       ============================================================ */
-
     header {
-      /* Stick to the top of the screen even when scrolling */
       position: fixed;
       top: 0;
       left: 0;
       right: 0;
 
-      /* Layout: logo on left, nav on right */
       display: flex;
       justify-content: space-between;
       align-items: center;
 
-      background-color: #2c1a0e; /* dark espresso brown */
+      background-color: #2c1a0e;
       padding: 15px 40px;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 
-      /* Make sure header sits on top of other content */
       z-index: 100;
     }
 
-    /* Logo: the coffee cup emoji + shop name */
     .logo {
       display: flex;
       align-items: center;
@@ -89,10 +58,9 @@
       font-family: 'Playfair Display', serif;
       font-size: 20px;
       font-weight: 700;
-      color: #f0e4cc; /* cream color */
+      color: #f0e4cc; 
     }
 
-    /* Navigation links */
     nav {
       display: flex;
       gap: 30px;
@@ -104,41 +72,29 @@
       font-size: 15px;
     }
 
-    /* Underline effect when hovering over a nav link */
     nav a:hover {
-      color: #c8873c; /* golden brown */
+      color: #c8873c; 
       text-decoration: underline;
     }
 
-
-    /* ============================================================
-       HERO SECTION — big full-screen welcome banner
-       ============================================================ */
-
     #home {
-      /* Push content down so the fixed header doesn't overlap */
       margin-top: 60px;
 
-      /* Full screen height */
       height: 90vh;
 
-      /* Background image from Unsplash (free to use) */
       background-image: url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1600&q=80');
       background-size: cover;
       background-position: center;
 
-      /* Dark overlay: we use a layered background to dim the image */
       background-blend-mode: multiply;
       background-color: rgba(44, 26, 14, 0.55);
 
-      /* Center the text content */
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
     }
 
-    /* The box that holds the hero text */
     .hero-content {
       padding: 20px;
       max-width: 700px;
@@ -147,59 +103,50 @@
     .hero-content h1 {
       font-family: 'Playfair Display', serif;
       font-size: 52px;
-      color: #fdfaf4;          /* near-white */
+      color: #fdfaf4;          
       margin-bottom: 15px;
       text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
     }
 
     .hero-content p {
       font-size: 20px;
-      color: #f0e4cc;          /* warm cream */
+      color: #f0e4cc;          
       margin-bottom: 30px;
     }
 
-    /* "Learn More" button */
     .hero-btn {
       display: inline-block;
       padding: 14px 40px;
-      background-color: #6b3a22; /* warm brown */
+      background-color: #6b3a22; 
       color: #fdfaf4;
       text-decoration: none;
       font-size: 16px;
       border-radius: 4px;
-      transition: background-color 0.2s; /* smooth hover color change */
+      transition: background-color 0.2s; 
     }
 
     .hero-btn:hover {
-      background-color: #a0622a; /* slightly lighter brown on hover */
+      background-color: #a0622a; 
     }
-
-
-    /* ============================================================
-       ABOUT + SPECIALTIES — two panels side by side
-       ============================================================ */
 
     #about {
-      display: flex;             /* side-by-side layout */
+      display: flex;             
       gap: 40px;
       padding: 70px 60px;
-      background-color: #faf4ea; /* light parchment */
+      background-color: #faf4ea; 
     }
 
-    /* Each panel takes up equal space */
     .about-panel,
     .specialties-panel {
       flex: 1;
     }
 
-    /* Thin vertical line between the two panels */
     .divider {
       width: 1px;
-      background-color: #d4a96a; /* warm tan */
+      background-color: #d4a96a; 
       margin: 20px 0;
     }
 
-    /* Section headings */
     .about-panel h2,
     .specialties-panel h2 {
       font-family: 'Playfair Display', serif;
@@ -208,7 +155,6 @@
       margin-bottom: 8px;
     }
 
-    /* Small decorative line under the heading */
     .section-line {
       width: 50px;
       height: 2px;
@@ -222,7 +168,6 @@
       color: #5c3d1e;
     }
 
-    /* List of specialties (no bullet points) */
     .specialty-list {
       list-style: none;
       display: flex;
@@ -230,7 +175,6 @@
       gap: 20px;
     }
 
-    /* Each specialty row: icon + text */
     .specialty-item {
       display: flex;
       align-items: flex-start;
@@ -239,7 +183,6 @@
 
     .specialty-icon {
       font-size: 28px;
-      /* Give the icon a small circular background */
       background-color: #2c1a0e;
       border-radius: 50%;
       width: 50px;
@@ -247,7 +190,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      flex-shrink: 0; /* don't let it shrink */
+      flex-shrink: 0; 
     }
 
     .specialty-text h4 {
@@ -263,13 +206,8 @@
       line-height: 1.6;
     }
 
-
-    /* ============================================================
-       MENU SECTION — three columns: Coffee, Tea, Pastries
-       ============================================================ */
-
     #menu {
-      background-color: #2c1a0e; /* dark espresso */
+      background-color: #2c1a0e;
       padding: 70px 60px;
       text-align: center;
     }
@@ -281,7 +219,6 @@
       margin-bottom: 8px;
     }
 
-    /* Decorative line under "Our Menu" heading */
     .menu-line {
       width: 50px;
       height: 2px;
@@ -289,14 +226,12 @@
       margin: 0 auto 40px;
     }
 
-    /* Grid of 3 equal-width columns */
     .menu-grid {
       display: flex;
-      gap: 2px;                  /* thin gap acts as a divider */
-      background-color: #4a2810; /* gap color */
+      gap: 2px;                  
+      background-color: #4a2810; 
     }
 
-    /* Each menu column (Coffee / Tea / Pastries) */
     .menu-column {
       flex: 1;
       background-color: #3d2314;
@@ -304,7 +239,7 @@
     }
 
     .menu-column:hover {
-      background-color: #2c1a0e; /* darken slightly on hover */
+      background-color: #2c1a0e; 
     }
 
     .menu-column .category-icon {
@@ -315,39 +250,30 @@
     .menu-column h3 {
       font-family: 'Playfair Display', serif;
       font-size: 22px;
-      color: #d4a96a;            /* warm golden */
+      color: #d4a96a;            
       margin-bottom: 20px;
     }
 
-    /* List of items inside each column */
     .menu-items {
       list-style: none;
     }
 
-    /* Each menu item row */
     .menu-items li {
       display: flex;
-      justify-content: space-between; /* name on left, price on right */
+      justify-content: space-between; 
       padding: 10px 0;
       border-bottom: 1px solid rgba(200, 135, 60, 0.2);
       color: #f0e4cc;
       font-size: 15px;
     }
 
-    /* No border on the last item */
     .menu-items li:last-child {
       border-bottom: none;
     }
 
-    /* Price text */
     .menu-items li span {
-      color: #c8873c; /* golden */
+      color: #c8873c; 
     }
-
-
-    /* ============================================================
-       FOOTER — dark bar at the very bottom
-       ============================================================ */
 
     footer {
       background-color: #1a0c05; /* very dark brown */
@@ -363,18 +289,13 @@
 
 <body>
 
-  <!-- ============================================================
-       HEADER — Logo on the left, navigation links on the right
-       ============================================================ -->
   <header>
 
-    <!-- Logo: clicking it scrolls back to the top -->
     <a href="#home" class="logo">
       <span class="logo-icon">☕</span>
       <span class="logo-name">Brewed Awakening</span>
     </a>
 
-    <!-- Navigation links -->
     <nav>
       <a href="#home">Home</a>
       <a href="#about">About</a>
@@ -384,10 +305,6 @@
 
   </header>
 
-
-  <!-- ============================================================
-       HERO — Full-screen welcome banner with background image
-       ============================================================ -->
   <section id="home">
 
     <div class="hero-content">
@@ -398,13 +315,8 @@
 
   </section>
 
-
-  <!-- ============================================================
-       ABOUT + SPECIALTIES — Two panels side by side
-       ============================================================ -->
   <section id="about">
 
-    <!-- Left panel: About Us -->
     <div class="about-panel">
       <h2>About Us</h2>
       <div class="section-line"></div>
@@ -416,17 +328,14 @@
       </p>
     </div>
 
-    <!-- Thin vertical divider line -->
     <div class="divider"></div>
 
-    <!-- Right panel: Our Specialties -->
     <div class="specialties-panel">
       <h2>Our Specialties</h2>
       <div class="section-line"></div>
 
       <ul class="specialty-list">
 
-        <!-- Specialty 1 -->
         <li class="specialty-item">
           <div class="specialty-icon">☕</div>
           <div class="specialty-text">
@@ -435,7 +344,6 @@
           </div>
         </li>
 
-        <!-- Specialty 2 -->
         <li class="specialty-item">
           <div class="specialty-icon">✨</div>
           <div class="specialty-text">
@@ -444,7 +352,6 @@
           </div>
         </li>
 
-        <!-- Specialty 3 -->
         <li class="specialty-item">
           <div class="specialty-icon">🥐</div>
           <div class="specialty-text">
@@ -458,10 +365,6 @@
 
   </section>
 
-
-  <!-- ============================================================
-       MENU — Three columns: Coffee, Tea, Pastries
-       ============================================================ -->
   <section id="menu">
 
     <h2>Our Menu</h2>
@@ -469,7 +372,6 @@
 
     <div class="menu-grid">
 
-      <!-- Column 1: Coffee -->
       <div class="menu-column">
         <div class="category-icon">☕</div>
         <h3>Coffee</h3>
@@ -480,7 +382,6 @@
         </ul>
       </div>
 
-      <!-- Column 2: Tea -->
       <div class="menu-column">
         <div class="category-icon">🍵</div>
         <h3>Tea</h3>
@@ -491,7 +392,6 @@
         </ul>
       </div>
 
-      <!-- Column 3: Pastries -->
       <div class="menu-column">
         <div class="category-icon">🥐</div>
         <h3>Pastries</h3>
@@ -506,10 +406,6 @@
 
   </section>
 
-
-  <!-- ============================================================
-       FOOTER — Copyright text at the bottom
-       ============================================================ -->
   <footer id="contact">
     <p>&copy; 2024 Brewed Awakening Coffee Shop. All rights reserved.</p>
   </footer>
