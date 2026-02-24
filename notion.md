@@ -1,10 +1,15 @@
-# Gradient Hero Landing Page<br>
-A modern and responsive landing page with gradient background, hero section, and brand showcase built using <strong>HTML & CSS</strong>.<br><br>
+# 🌈 Gradient Hero Landing Page
 
-## Features<br>
-- Full-width gradient background<br>
-- Hero section with heading, description & buttons<br>
-- Brand logos showcase section<br>
-- Responsive design for desktop & mobile<br>
-- Custom buttons & typography<br><br>
+> A modern and responsive landing page featuring a **gradient background**, hero section, and brand showcase, built using **HTML & CSS**. ✨
 
+---
+
+## 🚀 Features
+
+- 🎨 **Full-Width Gradient Background**  
+- 🏆 **Hero Section** with heading, description & buttons  
+- 🔗 **Brand Logos Showcase Section**  
+- 📱 **Responsive Design** for desktop & mobile  
+- ✨ **Custom Buttons & Typography**  
+
+💡 **Tip:** Perfect for showcasing brands or products with a sleek, modern landing page!
