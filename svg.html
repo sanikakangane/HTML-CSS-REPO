@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SVG Triangle</title>
+</head>
+<body>
+    
+<!-- Circle -->
+<svg width="100" height="100">
+    <circle cx= "50" cy="50" r="40" fill="skyblue" />
+</svg>
+
+<!-- rectangle -->
+<svg> width="120" height="80" >
+    <rect x="10" y="10" width="100" height="60" fill="orange" />
+</svg>
+
+<!-- line -->
+<svg width="120" height="60">
+    <line x1="1" y1="30" x2="200" y2="30" stroke="black" stroke-width="10" />
+</svg>
+
+<!-- polygon -->
+<svg width="200" height="120">
+    <polygon points="100,10 190,110 10,110"
+            fill="teal" />
+</svg>
+
+<!-- Path -->
+<svg width="200" height="120">
+    <path d="M10 60 Q100 10 190 60"
+        stroke="red"
+        stroke-width="3"
+        fill="none" />
+</svg>
+
+<!-- box path -->
+<svg width="250" height="150" style="border:1px solid #ccc">
+
+    <path
+        d="M 40 40 L 200 40 L 200 110 L 40 110 Z"
+        fill="lightblue"
+        stroke="blue"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        opacity="0.9" />
+
+</svg>
+
+<!-- Heart Path -->
+<svg width="260" height="220" viewBox="0 0 260 220"
+    style="border:1px solid #ccc">
+
+    <path d="
+        M 130 200
+        C 20 120, 40 20, 130 70
+        C 220 20, 240 120, 130 200
+        Z"
+        fill="pink"
+        stroke="red"
+        stroke-width="4" />
+
+</svg>
+
+<svg width="320" height="200" viewBox="0 0 320 200"
+     style="border:1px solid #ccc">
+
+    <path d="
+        M 40 40
+        H 280
+        Q 300 40 300 60
+        V 130
+        Q 300 150 280 150
+        H 140
+        L 110 180
+        L 120 150
+        H 40
+        Q 20 150 20 130
+        V 60
+        Q 20 40 40 40
+        Z
+    "
+    fill="#fff8e1"
+    stroke="#ff9800"
+    stroke-width="3"/>
+
+</svg>
+
+<!-- SVG Animations -->
+<!-- 1. Moving Circle -->
+<svg width="300" height="120" style="border:1px solid black">
+    <circle cx="30" cy="60" r="15" fill="red">
+        <animate
+            attributeName="cx"
+            from="30"
+            to="270"
+            dur="2s"
+            repeatCount="indefinite" />
+    </circle>
+</svg>
+
+<br><br>
+
+<!-- 2. Color Changing Rectangle -->
+<svg width="300" height="120" style="border:1px solid black">
+    <rect x="100" y="30" width="100" height="60" fill="blue">
+        <animate
+            attributeName="fill"
+            from="blue"
+            to="green"
+            dur="1.5s"
+            repeatCount="indefinite" />
+    </rect>
+</svg>
+
+<br><br>
+
+<!-- 3. Scaling Circle -->
+<svg width="300" height="120" style="border:1px solid black">
+    <circle cx="150" cy="60" r="20" fill="purple">
+        <animateTransform
+            attributeName="transform"
+            type="scale"
+            from="1"
+            to="1.5"
+            dur="1s"
+            repeatCount="indefinite" />
+    </circle>
+</svg>
+
+<br><br>
+
+<!-- 4. Rotating Square -->
+<svg width="300" height="120" style="border:1px solid black">
+    <rect x="140" y="40" width="40" height="40" fill="orange">
+        <animateTransform
+            attributeName="transform"
+            type="rotate"
+            from="0 160 60"
+            to="360 160 60"
+            dur="2s"
+            repeatCount="indefinite" />
+    </rect>
+</svg>
+
+<!-- SVG Transform Animations -->
+
+<!-- 1. Color Changing Rectangle -->
+<svg width="300" height="120" style="border:1px solid black">
+    <rect x="100" y="30" width="100" height="60" fill="red">
+        <animate
+            attributeName="fill"
+            from="red"
+            to="darkred"
+            dur="1.5s"
+            repeatCount="indefinite" />
+    </rect>
+</svg>
+
+<br><br>
+
+<!-- 2. Scale UP Circle -->
+<svg width="300" height="120" style="border:1px solid black">
+    <circle cx="150" cy="60" r="20" fill="purple">
+        <animateTransform
+            attributeName="transform"
+            type="scale"
+            from="1"
+            to="1.5"
+            dur="1s"
+            repeatCount="indefinite" />
+    </circle>
+</svg>
+
+<br><br>
+
+<!-- 3. Scale DOWN Circle -->
+<svg width="300" height="120" style="border:1px solid black">
+    <circle cx="150" cy="60" r="20" fill="purple">
+        <animateTransform
+            attributeName="transform"
+            type="scale"
+            from="1.5"
+            to="1"
+            dur="1s"
+            repeatCount="indefinite" />
+    </circle>
+</svg>
+
+<br><br>
+
+<!-- 4. Rotating Square -->
+<svg width="300" height="120" style="border:1px solid black">
+    <rect x="140" y="40" width="40" height="40" fill="orange">
+        <animateTransform
+            attributeName="transform"
+            type="rotate"
+            from="0 160 60"
+            to="360 160 60"
+            dur="2s"
+            repeatCount="indefinite" />
+    </rect>
+</svg>
+
+<!-- Text Animation -->
+<svg width="300" height="120" style="border:1px solid black">
+    <text x="80" y="70" font-size="30" fill="black">
+        SVG
+        <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="5s"
+            repeatCount="indefinite" />
+    </text>
+</svg>
+
+<!--  Animated Line -->
+<svg width="300" height="120" style="border:1px solid black">
+    <line x1="40" y1="60" x2="260" y2="60" stroke="blue" stroke-width="3">
+        <animate
+            attributeName="x2"
+            from="40"
+            to="260"
+            dur="2s"
+            repeatCount="indefinite" />
+    </line>
+</svg>
+</body>
+</html>
