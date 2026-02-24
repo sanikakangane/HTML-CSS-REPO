@@ -1,6 +1,7 @@
 # 💼 Projects
 
 🔹 Portfolio Website
+<br>
 A personal profile website featuring:
 About Me section
 Education details
