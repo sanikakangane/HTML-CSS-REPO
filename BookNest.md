@@ -1,12 +1,16 @@
-# BookNest – Book Showcase Website
+<h1>BookNest – Book Showcase Website</h1>
 
-BookNest is a simple book showcase webpage built using HTML and CSS.
+<p>
+BookNest is a simple book showcase webpage built using HTML and CSS.<br>
 It displays featured books in a clean and visually appealing layout.
+</p>
 
-Features:
- Header with logo and website title
- Search section banner
- Large featured banner image
- Two sections of featured books displayed in rows
- Styled layout with custom colors and fonts
- Footer with copyright information
+<p>
+<strong>Features:</strong><br>
+Header with logo and website title<br>
+Search section banner<br>
+Large featured banner image<br>
+Two sections of featured books displayed in rows<br>
+Styled layout with custom colors and fonts<br>
+Footer with copyright information
+</p>
