@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> My Portfolio 💼 </title>
+
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #FFD166;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            background: hsl(110, 55%, 67%);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #8fc67f;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+            background-color: rgb(44, 195, 192);
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        a:hover {
+            background-color: rgb(30, 170, 168);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table, th, td {
+            border: 1px solid #333;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .feedback {
+            margin-top: 30px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        audio {
+        display: block;
+        margin: 30px auto;
+        }
+    </style>
+
+</head>
+
+<body>
+<div class="container">
+
+    <!-- Profile Section -->
+    <div class="profile">
+        <img src="sanika.png"
+        alt="Sanika Kangane Profile Picture">
+
+        <h1> Sanika Kangane </h1>
+
+        <a href="https://www.linkedin.com/in/sanika-kangane-047545386/" target="_blank">
+            Visit my LinkedIn Profile →
+        </a>
+    </div>
+
+    <!-- Education Section -->
+    <h2> Education </h2>
+    <table>
+        <tr>
+            <th> Level </th>
+            <th> Institution Name </th>
+            <th> Year </th>
+        </tr>
+        <tr>
+            <td> School </td>
+            <td> St.Thomas High School </td>
+            <td> 2022 </td>
+        </tr>
+        <tr>
+            <td> College </td>
+            <td> Mutha College </td>
+            <td> 2024 </td>
+        </tr>
+    </table>
+
+    <!-- Feedback Section -->
+    <div class="feedback">
+        <h2>Feedback / Query</h2>
+        <form>
+            <label for="message">Enter your message:</label><br><br>
+            <textarea id="message" name="message" placeholder="Type your message here..."></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- 🎵 Audio Section -->
+    <div class="audio-box">
+        <audio controls>
+            <source src="sanika.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+</div>
+
+</div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
