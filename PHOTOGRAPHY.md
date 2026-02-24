@@ -1,10 +1,17 @@
-# Sanika Photography Portfolio<br>
-A responsive and elegant photography portfolio website showcasing <strong>weddings, portraits, and landscapes</strong>, built with <strong>HTML & CSS</strong>.<br><br>
+# 📸 Sanika Photography Portfolio
 
-## Features<br>
-- Hero section with background image & buttons<br>
-- About, Portfolio, Services & Contact sections<br>
-- Responsive design for desktop & mobile<br>
-- Hover effects and simple animations<br><br>
+> A responsive and elegant photography portfolio website showcasing **weddings, portraits, and landscapes**, built with **HTML & CSS**. ✨
 
+---
 
+## 🚀 Features
+
+- 🌄 **Hero Section** with background image & buttons  
+- 👩‍💼 **About Section**  
+- 🖼️ **Portfolio Section** to display your work  
+- 🛠️ **Services Section**  
+- 📞 **Contact Section**  
+- 📱 **Responsive Design** for desktop & mobile  
+- ✨ **Hover Effects & Simple Animations**  
+
+💡 **Tip:** Perfect for photographers wanting a stylish online portfolio!
