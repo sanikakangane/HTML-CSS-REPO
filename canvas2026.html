@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>2026 Canvas</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #e2e210, #db7c09);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  canvas {
+    background: radial-gradient(circle at top, #fff1c1, #ffcc80);
+    box-shadow: 0 20px 40px rgba(255, 152, 0, 0.45);
+    border-radius: 20px;
+  }
+</style>
+</head>
+
+<body>
+
+<canvas id="canvas" width="600" height="350"></canvas>
+
+<script>
+  const canvas = document.getElementById("canvas");
+  const ctx = canvas.getContext("2d");
+
+  let textY = 180;
+  let direction = 1;
+
+  const bubbles = Array.from({ length: 12 }, () => ({
+    x: Math.random() * canvas.width,
+    y: canvas.height + Math.random() * 200,
+    radius: Math.random() * 8 + 4,
+    speed: Math.random() * 0.6 + 0.3
+  }));
+
+  function drawBackground() {
+    const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+    gradient.addColorStop(0, "#ffb347");
+    gradient.addColorStop(1, "#ffcc33");
+
+    ctx.fillStyle = gradient;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+  }
+
+  function drawText() {
+    ctx.textAlign = "center";
+    ctx.shadowColor = "rgba(0,0,0,0.3)";
+    ctx.shadowBlur = 10;
+
+    ctx.font = "700 34px 'Gill Sans'";
+    ctx.fillStyle = "#2b1b00";
+    ctx.fillText("💖 Welcome to INDIA 💖", canvas.width / 2, textY);
+
+    ctx.font = "300 18px 'Gill Sans'";
+    ctx.fillStyle = "#4e2a00";
+    ctx.fillText("Namaste 🙏", canvas.width / 2, textY + 45);
+
+    ctx.shadowBlur = 0;
+  }
+
+  function drawBubbles() {
+    bubbles.forEach(bubble => {
+      ctx.beginPath();
+      ctx.arc(bubble.x, bubble.y, bubble.radius, 0, Math.PI * 2);
+      ctx.fillStyle = "white";
+      ctx.fill();
+
+      bubble.y -= bubble.speed;
+
+      if (bubble.y < -10) {
+        bubble.y = canvas.height + 20;
+        bubble.x = Math.random() * canvas.width;
+      }
+    });
+  }
+
+  function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    drawBackground();
+    drawBubbles();
+    drawText();
+
+    textY += 0.3 * direction;
+    if (textY > 185 || textY < 170) direction *= -1;
+
+    requestAnimationFrame(animate);
+  }
+
+  animate();
+</script>
+
+</body>
+</html>
