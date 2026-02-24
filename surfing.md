@@ -1,10 +1,16 @@
-# WaveRiders Surf Academy
+# 🏄 WaveRiders Surf Academy
 
-A simple surfing academy landing page built using HTML and CSS.<br><br>
+> A simple and engaging surfing academy landing page built using **HTML & CSS**.  
+> Showcases courses, instructors, and the thrill of surfing in a clean layout. 🌊
 
-## Features<br>
-- Hero section with full-screen background image<br>
-- Navigation bar<br>
-- About section<br>
-- Courses section<br>
-- Footer<br>
+---
+
+## 🚀 Features
+
+- 🌅 **Hero Section** with full-screen background image  
+- 🧭 **Navigation Bar**  
+- 👋 **About Section**  
+- 🏄 **Courses Section**  
+- 📝 **Footer**  
+
+💡 **Tip:** Perfect for surf schools or sports academies wanting a stylish online presence!
