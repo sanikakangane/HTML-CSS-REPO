@@ -1,17 +1,23 @@
-# SVG Shapes & Animations Project<br><br>
+# 🎨 SVG Shapes & Animations Project
 
-A simple HTML project demonstrating different SVG shapes and animations.<br><br>
+> A simple HTML project demonstrating **different SVG shapes and animations**.  
+> Perfect for learning SVG basics and creating engaging visual effects. ✨
 
-## Features<br>
-- Circle<br>
-- Rectangle<br>
-- Line<br>
-- Polygon (Triangle)<br>
-- Path shapes (Curve, Box, Heart, Chat Bubble)<br>
-- Moving Circle Animation<br>
-- Color Changing Rectangle<br>
-- Scaling Circle (Up & Down)<br>
-- Rotating Square<br>
-- Text Fade Animation<br>
-- Animated Line<br><br>
+---
+
+## 🚀 Features
+
+- ⚪ **Circle**  
+- ▭ **Rectangle**  
+- ➖ **Line**  
+- 🔺 **Polygon (Triangle)**  
+- ❤️ **Path Shapes** (Curve, Box, Heart, Chat Bubble)  
+- 🟢 **Moving Circle Animation**  
+- 🌈 **Color Changing Rectangle**  
+- ⬆️⬇️ **Scaling Circle (Up & Down)**  
+- 🔄 **Rotating Square**  
+- ✨ **Text Fade Animation**  
+- ➖ **Animated Line**  
+
+💡 **Tip:** Great for practicing **SVG graphics and animations** in HTML!
 
