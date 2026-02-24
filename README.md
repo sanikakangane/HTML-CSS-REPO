@@ -1,57 +1,72 @@
-# 💼 Projects
+# Sanika Kangane<br>
+## Web Development Projects Portfolio<br><br>
 
-🔹 Portfolio Website
-<br>
-A personal profile website featuring:
-<br>
-About Me section
-<br>
-Education details
-<br>
-Feedback form
-<br>
-Audio & video integration
-<br>
+Welcome to my collection of <b>HTML & CSS projects</b>.<br>
+This repository showcases my journey in front-end development, UI design, and creative web building.<br>
+Each project demonstrates structured layouts, responsive design, and modern styling techniques.<br><br>
 
-🔹 BookNest
-A book-themed webpage designed with:
-Clean layout structure
-Strong typography focus
-Organized book showcase sections
+---
 
-🔹 Canvas2026
-A creative webpage demonstrating:
-Color experimentation
-Font styling techniques
-Visual design practice
+## 💼 Projects<br><br>
 
-🔹 WaveRiders Surf Academy
-A modern landing page featuring:
-Professional UI layout
-Section-based design
-Styled navigation and hero section
+### 🔹 Portfolio Website<br>
+- About Me section<br>
+- Education details<br>
+- Feedback form<br>
+- Audio & Video integration<br><br>
 
-🔹 Registration Form
-A modern user registration form including:
-Interactive input fields
-Styled radio buttons & checkboxes
-Clean and user-friendly design
+---
 
-🔹 SVG Projects
-Pages showcasing:
-SVG shapes
-Basic animations
-Creative visual effects
+### 🔹 BookNest<br>
+- Organized book showcase<br>
+- Typography-focused design<br>
+- Structured layout<br><br>
 
-🔹 WebDev Practice
-A collection of mini projects exploring:
-HTML structure
-CSS styling
-Basic JavaScript concepts
+---
 
-🚀 Skills Demonstrated
-HTML5
-CSS3
-Responsive Design
-Flexbox & Layout Techniques
-UI Styling & Design Principles
+### 🔹 Canvas2026<br>
+- Color experimentation<br>
+- Font styling<br>
+- Visual layout practice<br><br>
+
+---
+
+### 🔹 WaveRiders Surf Academy<br>
+- Clean navigation bar<br>
+- Hero section<br>
+- Section-based UI layout<br><br>
+
+---
+
+### 🔹 Registration Form<br>
+- Styled input fields<br>
+- Radio buttons & checkboxes<br>
+- User-friendly interface<br><br>
+
+---
+
+### 🔹 SVG Projects<br>
+- SVG shapes<br>
+- Basic animations<br>
+- Visual effects<br><br>
+
+---
+
+### 🔹 WebDev Practice<br>
+- HTML structure<br>
+- CSS styling<br>
+- JavaScript basics<br><br>
+
+---
+
+## 🚀 Skills Demonstrated<br>
+- HTML5<br>
+- CSS3<br>
+- Responsive Design<br>
+- Flexbox<br>
+- UI Styling<br><br>
+
+---
+
+## 📌 About This Repository<br>
+This repository reflects my continuous learning and passion for building creative and structured web experiences.<br>
