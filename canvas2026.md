@@ -1,12 +1,16 @@
-# 2026 Canvas Animation Project<br><br>
+# 🎨 2026 Canvas Animation Project
 
-A creative HTML Canvas animation project featuring animated text and floating bubbles with a vibrant gradient background.<br><br>
+> A creative HTML Canvas animation project featuring **animated text** and **floating bubbles** over a vibrant gradient background. ✨
 
-## Features<br>
-- Animated welcome text<br>
-- Floating bubble animation effect<br>
-- Gradient background (linear + radial)<br>
-- Smooth text bounce animation<br>
-- Soft shadow effects<br>
-- Responsive centered layout using Flexbox<br><br>
+---
 
+## 🚀 Features
+
+- 📝 **Animated Welcome Text**  
+- 🟢 **Floating Bubble Animation Effect**  
+- 🌈 **Gradient Background** (linear + radial)  
+- 🎵 **Smooth Text Bounce Animation**  
+- 🌟 **Soft Shadow Effects**  
+- 📐 **Responsive Centered Layout** using Flexbox  
+
+💡 **Tip:** Perfect for practicing **HTML Canvas animations** and creating visually engaging effects!
