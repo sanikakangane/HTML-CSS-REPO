@@ -1,13 +1,17 @@
-# Student Registration Form
+# Student Registration Form<br><br>
 
-This is a simple HTML Student Registration Form created using basic HTML and CSS.
+This is a simple HTML Student Registration Form created using basic HTML and CSS.<br><br>
 
-Features:
- A heading “Student Registration”
+## Features:<br><br>
 
-Input fields for:
- Name (text input)
- Email (email input with validation)
- Gender selection using checkboxes (Male / Female)
- Subject selection using checkboxes (HTML, CSS, JavaScript)
- A Submit button to register
+• A heading “Student Registration”<br><br>
+
+• Input fields for:<br>
+&nbsp;&nbsp;&nbsp;– Name (text input)<br>
+&nbsp;&nbsp;&nbsp;– Email (email input with validation)<br><br>
+
+• Gender selection using checkboxes (Male / Female)<br><br>
+
+• Subject selection using checkboxes (HTML, CSS, JavaScript)<br><br>
+
+• A Submit button to register<br>
