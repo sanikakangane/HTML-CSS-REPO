@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sanika's Flower Nursery</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:linear-gradient(#fff7fb,#e8fff0);
+text-align:center;
+}
+
+/* title */
+h1{
+color:#e02648;
+margin-top:20px;
+}
+
+/* grid */
+.container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:25px;
+padding:40px;
+}
+
+/* flower card */
+.flower{
+background:white;
+padding:15px;
+border-radius:12px;
+box-shadow:0 5px 12px rgba(0,0,0,.2);
+cursor:pointer;
+transition:.3s;
+}
+
+.flower:hover{
+transform:scale(1.05);
+}
+
+.flower img{
+width:200px;
+height:200px;
+object-fit:cover;
+border-radius:50%;
+}
+
+/* popup */
+#popup{
+position:fixed;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:white;
+width:380px;
+padding:25px;
+border-radius:12px;
+box-shadow:0 12px 30px rgba(0,0,0,.4);
+display:none;
+}
+
+button{
+background:#db0e67;
+color:white;
+border:none;
+padding:8px 14px;
+border-radius:6px;
+margin-top:12px;
+cursor:pointer;
+}
+
+/* FOOTER */
+.footer{
+background:#e8fff0;
+color:#e10f2b;
+text-align:center;
+padding:20px;
+margin-top:40px;
+font-size:16px;
+border-top:3px solid #81c784;
+line-height:1.7;
+width:100%;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>🌺 Sanika's Flower Nursery </h1>
+
+<div class="container" id="flowers"></div>
+
+<!-- popup -->
+<div id="popup">
+<h2 id="name"></h2>
+<p id="info"></p>
+<button onclick="closePopup()">Close</button>
+</div>
+
+<script>
+
+const flowers=[
+
+{
+name:"Yellow Tulip",
+img:"https://i.pinimg.com/1200x/fd/e1/2a/fde12ab5faf7276bc7dcb860944b2490.jpg"
+},
+
+{
+name:"Columbine",
+img:"https://i.pinimg.com/1200x/2a/ca/26/2aca26e1a30ab54db7d4a8ec224ae05f.jpg"
+},
+
+{
+name:"Marigold",
+img:"https://i.pinimg.com/1200x/6b/54/6d/6b546d3973babce6e1c6aa165dd87192.jpg"
+}
+
+];
+
+/* create cards */
+const container=document.getElementById("flowers");
+
+flowers.forEach(f=>{
+let card=document.createElement("div");
+card.className="flower";
+card.innerHTML=`
+<img src="${f.img}">
+<h3>${f.name}</h3>
+`;
+card.onclick=()=>showInfo(f);
+container.appendChild(card);
+});
+
+function showInfo(f){
+document.getElementById("name").innerText=f.name;
+document.getElementById("info").innerText=f.info;
+document.getElementById("popup").style.display="block";
+}
+
+function closePopup(){
+document.getElementById("popup").style.display="none";
+}
+
+</script>
+
+<footer class="footer">
+© 2026 Sanika's Flower Nursery 🌷<br>
+</footer>
+
+</body>
+</html>
