@@ -1,5 +1,5 @@
 # Sanika Kangane<br>
-## Web Development Projects Portfolio<br><br>
+## Web-Development Projects Portfolio<br><br>
 
 Welcome to my collection of <b>HTML & CSS projects</b>.<br>
 This repository showcases my journey in front-end development, UI design, and creative web building.<br>
