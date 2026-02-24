@@ -1,72 +1,73 @@
-# Sanika Kangane<br>
-## Web Development Projects Portfolio<br><br>
+# 👩‍💻 Sanika Kangane  
+## Web Development Projects Portfolio
 
-Welcome to my collection of <b>HTML & CSS projects</b>.<br>
-This repository showcases my journey in front-end development, UI design, and creative web building.<br>
-Each project demonstrates structured layouts, responsive design, and modern styling techniques.<br><br>
-
----
-
-## 💼 Projects<br><br>
-
-### 🔹 Portfolio Website<br>
-- About Me section<br>
-- Education details<br>
-- Feedback form<br>
-- Audio & Video integration<br><br>
+> Welcome to my collection of **HTML & CSS projects**.  
+> This repository showcases my journey in **front-end development, UI design, and creative web building**.  
+> Each project demonstrates **structured layouts, responsive design, and modern styling techniques**. ✨
 
 ---
 
-### 🔹 BookNest<br>
-- Organized book showcase<br>
-- Typography-focused design<br>
-- Structured layout<br><br>
+## 💼 Projects
+
+### 🔹 Portfolio Website
+- About Me section  
+- Education details  
+- Feedback form  
+- Audio & Video integration 🎵🎥  
 
 ---
 
-### 🔹 Canvas2026<br>
-- Color experimentation<br>
-- Font styling<br>
-- Visual layout practice<br><br>
+### 🔹 BookNest
+- Organized book showcase 📚  
+- Typography-focused design  
+- Structured layout  
 
 ---
 
-### 🔹 WaveRiders Surf Academy<br>
-- Clean navigation bar<br>
-- Hero section<br>
-- Section-based UI layout<br><br>
+### 🔹 Canvas2026
+- Color experimentation 🎨  
+- Font styling  
+- Visual layout practice  
 
 ---
 
-### 🔹 Registration Form<br>
-- Styled input fields<br>
-- Radio buttons & checkboxes<br>
-- User-friendly interface<br><br>
+### 🔹 WaveRiders Surf Academy
+- Clean navigation bar 🧭  
+- Hero section 🌅  
+- Section-based UI layout  
 
 ---
 
-### 🔹 SVG Projects<br>
-- SVG shapes<br>
-- Basic animations<br>
-- Visual effects<br><br>
+### 🔹 Registration Form
+- Styled input fields ✏️  
+- Radio buttons & checkboxes 👥  
+- User-friendly interface ✅  
 
 ---
 
-### 🔹 WebDevelopment Practice<br>
-- HTML structure<br>
-- CSS styling<br>
-- JavaScript basics<br><br>
+### 🔹 SVG Projects
+- SVG shapes ⚪🔺⬛  
+- Basic animations ✨  
+- Visual effects 🌈  
 
 ---
 
-## 🚀 Skills Demonstrated<br>
-- HTML5<br>
-- CSS3<br>
-- Responsive Design<br>
-- Flexbox<br>
-- UI Styling<br><br>
+### 🔹 Web Development Practice
+- HTML structure  
+- CSS styling  
+- JavaScript basics 💻  
 
 ---
 
-## 📌 About This Repository<br>
-This repository reflects my continuous learning and passion for building creative and structured web experiences.<br>
+## 🚀 Skills Demonstrated
+- HTML5  
+- CSS3  
+- Responsive Design 📱  
+- Flexbox 🧩  
+- UI Styling ✨  
+
+---
+
+## 📌 About This Repository
+> This repository reflects my **continuous learning** and **passion for building creative and structured web experiences**.  
+> Each project is a step toward mastering **modern front-end development**. 🌟
