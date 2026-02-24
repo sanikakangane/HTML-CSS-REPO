@@ -1,10 +1,16 @@
-# Sanika's Flower Nursery<br><br>
+# 🌸 Sanika's Flower Nursery
 
-A simple and beautiful flower gallery website built using HTML, CSS, and JavaScript.<br><br>
+> A simple and beautiful flower gallery website built using **HTML, CSS, and JavaScript**.  
+> Showcases flowers in an elegant, interactive, and responsive layout. ✨
 
-## Features<br>
-- Responsive grid layout using CSS Grid<br>
-- Flower cards with hover effects<br>
-- Popup modal to display flower details<br>
-- Clean gradient background design<br>
-- Soft shadow and rounded UI styling<br><br>
+---
+
+## 🚀 Features
+
+- 🖼️ **Responsive Grid Layout** using CSS Grid  
+- 🌷 **Flower Cards** with hover effects  
+- 🔍 **Popup Modal** to display flower details  
+- 🎨 **Clean Gradient Background Design**  
+- 🌟 **Soft Shadow & Rounded UI Styling**  
+
+💡 **Tip:** Perfect for practicing **responsive design** and creating a visually appealing gallery!
