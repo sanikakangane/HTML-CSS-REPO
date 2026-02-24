@@ -52,7 +52,7 @@ Each project demonstrates structured layouts, responsive design, and modern styl
 
 ---
 
-### 🔹 WebDev Practice<br>
+### 🔹 WebDevelopment Practice<br>
 - HTML structure<br>
 - CSS styling<br>
 - JavaScript basics<br><br>
