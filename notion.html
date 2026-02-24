@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Notion Clone </title>
+<link rel="stylesheet" href="notion.css">
+</head>
+<style> 
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg,#f5a16b,#5d86ff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    background: #f6f6f6;
+    border-radius: 15px;
+    padding: 25px 40px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand img {
+    width: 120px;
+}
+
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    color: #555;
+}
+
+.nav-buttons button {
+    margin-left: 12px;
+}
+
+/* Buttons */
+.main-btn {
+    background: #2f6df6;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.demo-btn {
+    background: #e9e9e9;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left {
+    max-width: 450px;
+}
+
+.hero-left h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero-left p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+/* Brands */
+.brands p {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.brand-logos {
+    display: flex;
+    gap: 25px;
+    color: #888;
+    font-weight: bold;
+}
+
+/* Illustration */
+.hero-right img {
+    width: 550px;
+    border: none;
+    outline: none;
+    background: transparent;
+    display: block;
+}
+
+.hero-right {
+    background: transparent;
+    border: none;
+}
+</style>
+<body>
+
+<div class="container">
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="brand">
+    <img src="../IMAGES/logo.png" alt="Notion Logo">
+</div>
+
+
+        <ul class="nav-links">
+            <li>Features</li>
+            <li>Team</li>
+            <li>Workspace</li>
+            <li>Customer</li>
+            <li>Pricing</li>
+        </ul>
+
+        <div class="nav-buttons">
+            <button class="demo-btn">Request a demo</button>
+            <button class="login-btn">Log in</button>
+            <button class="main-btn">Get Notion free</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-left">
+            <h1>Build<br>something<br>beautiful.</h1>
+
+            <p>
+                Notion helps you and your team get more
+                done with peace of mind.
+            </p>
+
+            <div class="hero-buttons">
+                <button class="main-btn">Get Notion free</button>
+                <button class="demo-btn">Request a demo</button>
+            </div>
+
+            <div class="brands">
+                <p>Millions run on Notion</p>
+                <div class="brand-logos">
+                    <span>Amazon</span>
+                    <span>NETFLIX</span>
+                    <span>AT&T</span>
+                    <span>Figma</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <img src="../IMAGES/notion.png" alt="illustration">
+        </div>
+
+    </section>
+
+</div>
+
+</body>
+</html>
