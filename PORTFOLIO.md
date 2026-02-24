@@ -1,11 +1,16 @@
-# Personal Portfolio Website
+# 💻 Personal Portfolio Website
 
-A simple personal portfolio website built using HTML and CSS.<br><br>
+> A simple personal portfolio website built using **HTML and CSS**.  
+> Showcases your profile, education, and personal projects in a clean layout. ✨
 
-## Features<br>
-- Profile section with image<br>
-- LinkedIn profile link<br>
-- Education details table<br>
-- Feedback form<br>
-- Embedded audio section<br><br>
+---
 
+## 🚀 Features
+
+- 🖼️ **Profile Section** with image  
+- 🔗 **LinkedIn Profile Link**  
+- 📊 **Education Details Table**  
+- 📝 **Feedback Form**  
+- 🎵 **Embedded Audio Section**  
+
+💡 **Tip:** Perfect for showcasing your skills, education, and personal projects in one place!
