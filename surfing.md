@@ -1,11 +1,10 @@
 # WaveRiders Surf Academy
 
-A simple surfing academy landing page built using HTML and CSS.
+A simple surfing academy landing page built using HTML and CSS.<br><br>
 
-## Features
-- Hero section with full-screen background image
-- Navigation bar
-- About section
-- Courses section
-- Footer
-
+## Features<br>
+- Hero section with full-screen background image<br>
+- Navigation bar<br>
+- About section<br>
+- Courses section<br>
+- Footer<br>
