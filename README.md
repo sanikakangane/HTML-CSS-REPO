@@ -1,4 +1,4 @@
-💼 Projects
+# 💼 Projects
 
 🔹 Portfolio Website
 A personal profile website featuring:
