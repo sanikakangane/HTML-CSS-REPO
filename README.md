@@ -72,6 +72,26 @@
 
 ---
 
+### 🔹 Photography Website
+- Elegant photography portfolio design 📸  
+- Hero section with background image  
+- About section for photographer introduction  
+- Portfolio gallery layout 🖼️  
+- Contact form for client inquiries 📞  
+- Stylish typography and modern UI  
+
+---
+
+### 🔹 WebDev-ShopKart
+- Bright e-commerce style product showcase 🛍️  
+- Product cards with brand, price, and discount 💸  
+- Safety equipment section 🦺  
+- Electrical products section ⚡  
+- Hover effects and modern card UI ✨  
+- Responsive grid layout using CSS  
+
+---
+
 ### 🔹 Web Development Practice
 - HTML structure  
 - CSS styling  
