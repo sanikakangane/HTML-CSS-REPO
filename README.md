@@ -52,6 +52,26 @@
 
 ---
 
+### 🔹 Coffee Shop Website
+- Modern coffee shop landing page ☕  
+- Fixed navigation bar  
+- Hero section with background image  
+- About & specialties section  
+- Menu layout with categories  
+- Elegant coffee-themed UI design  
+
+---
+
+### 🔹 Notion Landing Page Clone
+- Notion-style landing page UI 💻  
+- Gradient background design 🎨  
+- Navigation bar with buttons  
+- Hero section with call-to-action  
+- Brand showcase section  
+- Clean modern layout using Flexbox  
+
+---
+
 ### 🔹 Web Development Practice
 - HTML structure  
 - CSS styling  
