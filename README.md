@@ -13,7 +13,7 @@
 - About Me section  
 - Education details  
 - Feedback form  
-- Audio & Video integration 🎵🎥  
+- Audio integration 🎵  
 
 ---
 
